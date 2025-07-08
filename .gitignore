@@ -1,0 +1,6 @@
+output/
+afl_out/
+targets/logs/
+target/afl_out/
+logs/
+honggfuzz/

@@ -1,0 +1,19 @@
+Fuzzing run started: Mon Jun 30 11:23:54 AM BST 2025
+Each fuzzer runs for 60 seconds
+----------------------------
+[*] Starting AFL++...
+[AFL++] Duration: 60s
+[AFL++] Power used: 2 mWh
+[AFL++] Crash: logs/out_afl/default/crashes/id:000000,sig:11,src:000005,time:5876,execs:10093,op:havoc,rep:1
+----------------------------
+[*] Starting Honggfuzz...
+[Honggfuzz] Duration: 60s
+[Honggfuzz] Power used: -3459 mWh
+[Honggfuzz] No crash found
+----------------------------
+[*] Starting LibFuzzer...
+[LibFuzzer] Duration: 1s
+[LibFuzzer] Power used: 1 mWh
+[LibFuzzer] Crash: ./crash-52f424f1d0a6a0562c3900d40e3bb72062af5ce8
+----------------------------
+? All fuzzers completed. Summary saved to fuzz_log.txt
