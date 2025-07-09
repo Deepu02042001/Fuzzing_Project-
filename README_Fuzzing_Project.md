@@ -1,8 +1,7 @@
 
-# Fuzzing_Project- 🔍
+#FuzzDeck-🔍
 
-A modular fuzzing framework integrating AFL++, Honggfuzz, LibFuzzer, and Radamsa to test binary targets. Built for security researchers to efficiently run and monitor fuzzers in a structured environment.
-
+FuzzDeck is a structured fuzzing framework built to run and compare performance across four powerful fuzzers — AFL++, Honggfuzz, LibFuzzer, and Radamsa. The tool supports automated compilation, input corpus creation, fuzzing execution, crash monitoring, and power profiling, designed especially for Raspberry Pi, Kali, and resource-constrained systems.
 ---
 
 ## 📚 Table of Contents
@@ -185,4 +184,3 @@ make clean && make all
 ## 🙏 Acknowledgments
 
 - Open source developers of AFL++, Honggfuzz, Radamsa, and LibFuzzer
-- Inspired by Resploit's structured documentation style
