@@ -24,6 +24,10 @@ FuzzDeck is a structured fuzzing framework built to run and compare performance 
 
 ---
 
+![Demonstration](./video/FuzzDeck_Demo.mp4)
+
+
+
 ## ✨ Features
 
 - Install and use 4 major fuzzers: AFL++, Honggfuzz, LibFuzzer, Radamsa.
